@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import useSWR from 'swr';
 
-function LastSalesPage(props) {
+function SWRPage(props) {
   const [sales, setSales] = useState(props.sales);
   // const [isLoading, setIsLoading] = useState(false);
 
@@ -24,26 +24,6 @@ function LastSalesPage(props) {
       setSales(transformedSales);
     }
   }, [data]);
-
-  // useEffect(() => {
-  //   setIsLoading(true);
-  //   fetch('https://eco-city-d215d-default-rtdb.europe-west1.firebasedatabase.app/sales.json')
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       const transformedSales = [];
-
-  //       for (const key in data) {
-  //         transformedSales.push({
-  //           id: key,
-  //           username: data[key].username,
-  //           volume: data[key].volume,
-  //         });
-  //       }
-
-  //       setSales(transformedSales);
-  //       setIsLoading(false);
-  //     });
-  // }, []);
 
   if (error) {
     return <p>Failed to load.</p>;
@@ -83,4 +63,4 @@ export async function getStaticProps() {
   return { props: { sales: transformedSales } };
 }
 
-export default LastSalesPage;
+export default SWRPage;
