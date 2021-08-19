@@ -526,3 +526,25 @@ const OPEN_OFFICE = [
   
 ];
 
+export function getFeaturedEvents() {
+  return OPEN_OFFICE.filter((event) => event.isFeatured);
+}
+
+export function getAllEvents() {
+  return OPEN_OFFICE;
+}
+
+export function getFilteredEvents(dateFilter) {
+  const { year, month } = dateFilter;
+
+  let filteredEvents = OPEN_OFFICE.filter((event) => {
+    const eventDate = new Date(event.date);
+    return eventDate.getFullYear() === year && eventDate.getMonth() === month - 1;
+  });
+
+  return filteredEvents;
+}
+
+export function getEventById(id) {
+  return OPEN_OFFICE.find((event) => event.id === id);
+}
