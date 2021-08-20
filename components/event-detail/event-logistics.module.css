@@ -1,12 +1,12 @@
 .logistics {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  background-color: #2b2b2b;
+  background-color:rgb(5, 55, 55);
   padding: 2rem;
   max-width: 50rem;
   width: 80%;
   margin: -3rem auto;
-  color: #d5eeeb;
+  color: #e4dcb7;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -17,9 +17,9 @@
 .image {
   width: 10rem;
   height: 10rem;
-  border-radius: 50%;
+  border-radius: 5%;
   overflow: hidden;
-  border: 5px solid white;
+  border: 3px solid #e4dcb7;
 }
 
 .image img {

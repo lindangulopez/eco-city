@@ -4,29 +4,33 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 1rem 10%;
-  height: 5rem;
-  background-color: #202020;
+  height: 7rem;
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  color:rgb(5, 55, 55);
+  background-image: linear-gradient(to bottom left,  #008b79, #e4dcb7);
 }
 
 .logo {
   font-size: 1.5rem;
-  color: white;
   font-family: 'Fira', sans-serif;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #94fdfd;
+  color: rgb(5, 55, 55);
 }
 
 .logo a {
   text-decoration: none;
-  color: #94fdfd;
+  color:rgb(5, 55, 55);
 }
 
 .navigation a {
   text-decoration: none;
-  color: #74dacc;
+  color: rgb(5, 55, 55);
   font-size: 1rem;
 }
 

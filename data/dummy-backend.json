@@ -1,7 +1,20 @@
 {
   "products": [
-    { "id": "p1", "title": "Product 1", "description": "This is product 1" },
-    { "id": "p2", "title": "Product 2", "description": "This is product 2" },
-    { "id": "p3", "title": "Product 3", "description": "This is product 3" }
+    { "id": "FR", 
+      "title": "FR", 
+      "welcome":"Bienvenue sur Explorer & Collaborer",
+      "devis":"Cartographier une bonne vie pour tous dans les limites planétaires. ",
+      "explore1": "Cette plate-forme héberge un ensemble de ressources pour vous aider à construire des villes et des villages résilients. Participez aux ateliers de septembre-octobre pour en savoir plus sur les risques écologiques auxquels votre ville ou votre ville natale est confrontée et pourquoi il est important d'aller au-delà des ODD pour lutter contre le changement climatique et les inégalités.",
+      "explore2": "Novembre est le temps de la science des données, vous devrez remplir quatre sondages pour en savoir plus sur les fondements sociaux et les limites planétaires de la ville ou de la village sur laquelle vous avez choisi de travailler. Et modéliser comment nous pouvons lutter contre le changement climatique et réduire les inégalités dans nos communautés en utilisant la biométrie pour créer un environnement urbain durable.",
+      "explore3": "En décembre, nous parlerons de l'engagement des parties prenantes et de la narration, pour faire passer votre message et le déployer.",
+      "explore4": "Dans la dernière série d'ateliers, nous vous montrerons comment reproduire ce projet et utiliser ce site Web Next.js comme modèle pour votre propre projet d'éco-ville. ",
+      "collaborate1":"Ceci est une initiative Open Source et Creative Commons pour construire des villes et des villages résilients.",
+      "collaborate2":"Les contributeurs sont des personnes ayant suivi les ateliers, ils peuvent rédiger un article pour le blog sur leur projet d'éco-ville. Les contributeurs auront également créé une Story Map ArcGIS et ajouté des données à la carte Web « Mapping a good life for all within planetary boundaries. ».",
+      "collaborate3":"Le collaborateur idéal sera un professionnel du développement durable qui est également développeur ArcGIS et Next.js. Vous devez également disposer d'un compte ArcGIS Online et Github. Si vous manquez de compétences ou de ressources, vous pouvez suivre les ateliers pour commencer, puis demander à collaborer à la prochaine série d'événements.",
+      "collaborate4":"Vous pouvez collaborer en organisant des ateliers ou en contribuant au développement du site internet, par exemple en traduisant le modèle d'éco-ville dans une langue autre que le français ou l'anglais.",
+      "workshops1":"Reserver des Ateliers",
+      "workshops2":"pour renforcer vos compétences en développement et développement durable, science des données, narration avec story maps et développement éco-web." 
+    
+    }
   ]
 }
