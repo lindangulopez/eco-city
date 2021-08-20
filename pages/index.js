@@ -1,5 +1,7 @@
 import path from 'path';
 import fs from 'fs/promises';
+import { getFeaturedEvents } from '../helpers/api-util';
+import EventList from '../components/events/event-list';
 
 import Link from 'next/link';
 
@@ -7,6 +9,11 @@ function HomePage(props) {
   const { products } = props;
 
   return (
+    <>
+    <div>
+      <EventList items={props.events} />
+    </div>
+
     <ul>
       {products.map((product) => (
         <li key={product.id}>
@@ -14,14 +21,17 @@ function HomePage(props) {
         </li>
       ))}
     </ul>
+    </>
   );
 }
+
 
 export async function getStaticProps(context) {
   console.log('(Re-)Generating...');
   const filePath = path.join(process.cwd(), 'data', 'dummy-backend.json');
   const jsonData = await fs.readFile(filePath);
   const data = JSON.parse(jsonData);
+  const featuredEvents = await getFeaturedEvents();
 
   if (!data) {
     return {
@@ -38,8 +48,9 @@ export async function getStaticProps(context) {
   return {
     props: {
       products: data.products,
+      events: featuredEvents
     },
-    revalidate: 10,
+    revalidate: 1800,
   };
 }
 
