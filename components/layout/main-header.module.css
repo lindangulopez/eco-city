@@ -3,10 +3,10 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 1rem 10%;
-  height: 7rem;
+  padding: 4rem 10%;
+  height: 15rem;
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   color:white;
@@ -14,12 +14,12 @@
   radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),
   radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
   background-size: 5px 5px;
-  background-color: #C8D3A7;
+  background-color: #e4dcb7;
   background-position: 0 0, 55px 55px;
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-family: 'Fira', sans-serif;
   height: 100%;
   display: flex;
@@ -37,16 +37,17 @@
 
 .navigation a {
   text-decoration: none;
+   
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
   .logo {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
 
   .navigation a {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }

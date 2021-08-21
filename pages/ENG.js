@@ -190,20 +190,7 @@ function HomePage(props) {
     <div>
    
     <div className="container center">
-    <a href="https://groups.google.com/g/explore-collaborate" target="_blank" className="card">
-
-      <h4><Link  href="/events"> To strengthen your skills in sustainable development and development,
-          data science, story telling with story maps and eco web development.</Link></h4>
-              <h3>
-    {/* Plan B
-    <ul>
-      {products.map((product) => (
-      <li key={product.id} className ="center"><button className="btn"><Link href={`/products/${product.id}`}>{product.title}</Link></button></li>
-      ))}
-      </ul> */}
-      Book Workshops </h3></a>
-       
-      
+               
    
    </div>
       <EventList items={props.events} />

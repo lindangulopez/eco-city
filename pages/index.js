@@ -38,8 +38,7 @@ function HomePage(props) {
       
       <h2><Link href="blog/collaborate">Collaborate</Link></h2>
 
-       <h3>An Open Source and Creative Commons Initiative </h3>
-       <h3>to Build Resilient Cities & Villages.</h3>
+       <p>An Open Source and Creative Commons Initiative to Build Resilient Cities & Villages.</p>
 
           <button className="btn">      <a href="https://sdgs.un.org/2030agenda" target="_blank"
             className="card">
@@ -62,8 +61,7 @@ function HomePage(props) {
               alt="SDG Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable"
             />
             <h3>Make cities</h3>
-            <p>and human settlements inclusive,</p>
-            <p>safe, resilient and sustainable</p> 
+            <p>and human settlements inclusive,safe, resilient and sustainable</p> 
           </a></button>
 
             <button className="btn">      <a href="https://sdgs.un.org/2030agenda" target="_blank"

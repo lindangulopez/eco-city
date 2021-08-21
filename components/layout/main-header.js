@@ -6,16 +6,9 @@ function MainHeader() {
   return (
     <header className={classes.header}>
       <div className={classes.navigation}>
-        <Link href='/FR'>[&nbsp;FR&nbsp;]&nbsp;</Link> <Link href='/ENG'>&nbsp;[&nbsp;ENG&nbsp;]</Link>
-
+      <button className="btn"><Link href='/FR'>[&nbsp;FR&nbsp;]&nbsp;</Link></button> <button className="btn"><Link href='/ENG'>&nbsp;[&nbsp;ENG&nbsp;]</Link></button> 
       </div>
-      <nav className={classes.logo}>
-        <ul>
-          <li>
-            <Link href='/'>ECO</Link>
-          </li>
-        </ul>
-      </nav>
+      <button className="btn"><Link href='/'>ECO-CITY</Link></button>
     </header>
   );
 }
