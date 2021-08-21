@@ -9,29 +9,36 @@
   font-size: 2.5rem;
   text-align: center;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-  color:rgb(5, 55, 55);
-  background-image: linear-gradient(to bottom left,  #008b79, #e4dcb7);
+  color:white;
+  background-image:
+  radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),
+  radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
+  background-size: 5px 5px;
+  background-color: #C8D3A7;
+  background-position: 0 0, 55px 55px;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-family: 'Fira', sans-serif;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(5, 55, 55);
+  color: white;
 }
 
 .logo a {
   text-decoration: none;
-  color:rgb(5, 55, 55);
+  color:white;
 }
+
+
 
 .navigation a {
   text-decoration: none;
-  color: rgb(5, 55, 55);
-  font-size: 1rem;
+  color: white;
+  font-size: 2rem;
 }
 
 @media (min-width: 768px) {

@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+html { 
+background-image:
+radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),
+radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
+background-size: 5px 5px;
+background-color: #C8D3A7;
+background-position: 0 0, 55px 55px;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', 'Lato', sans-serif;
@@ -18,7 +27,13 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', sans-serif;
+  margin: 3rem;
+  padding-top: 1.5rem;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   color:rgb(5, 55, 55);
+
 }
 
 ul {
@@ -64,4 +79,26 @@ ul {
 .btn:active {
   background-image: linear-gradient(to bottom left,  #008b79, #e4dcb7);
   border-color: #e4dcb7;
+}
+
+a {
+ color:white;   
+ text-decoration: none;
+ text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  margin: 3rem;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  color:rgb(5, 55, 55);
+}
+
+img {
+  border-radius: 10px;
+  width: 90%;
+  margin: 1.5rem;
 }
