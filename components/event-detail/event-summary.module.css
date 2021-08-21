@@ -6,11 +6,11 @@
 
 .summary h1 {
   margin: 0;
-  padding-top: 3rem;
-  font-size: 2rem;
+  padding-top: 1.5rem;
+  font-size: 3rem;
   text-align: center;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-  color:rgb(5, 55, 55);
+  color:white;
 }
 
 @media (min-width: 768px) {
