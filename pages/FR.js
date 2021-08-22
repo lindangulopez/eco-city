@@ -15,174 +15,147 @@ function HomePage(props) {
     <>
     <div className="container center">
     <h1 className="title description">
-    <a href="https://github.com/users/lindangulopez/projects/10" target="_blank">Welcome to Explore & Collaborate &rarr; </a> 
+    <a href="https://github.com/users/lindangulopez/projects/10" target="_blank">Bienvenue sur Explore & Collaborate &rarr; </a> 
     </h1>
 
-    <button className="btn">      <a href="https://arcg.is/4r5yb" target="_blank"
-            className="card">
-            <Image 
+    
+          <h2><Link href="/events/e15" >Cartographier une bonne vie pour tous dans les limites planétaires.</Link></h2>
+          <button className="btn">
+          <Image 
               src="/images/GL4A.png"
               height={900}
               width={1400}
-              alt="Geo-Data for Explore & Collaborate"
+              alt="Géo-données pour Explore & Collaborate"
             />
-            <p>Mapping a good life for all within planetary boundaries.</p>
-          </a></button>
+          </button>
      
-
-      <h2><Link href="blog/explore">Explore</Link>
-      </h2>
-      <p>This platform hosts a set of resources for ArcGIS Sustainability Professionals to help you build resilient cities and towns. Attend the September-October workshops to learn more about the ecological risks your city or hometown faces and why it is important to go beyond the SDGs to tackle climate change and inequality.</p>
-      <p>November is data science time, you will need to complete four surveys to learn about the social foundations and planetary boundaries of the city or village you have chosen to work on. And model how we can tackle climate change and reduce inequalities in our communities by using biometrics to create a sustainable urban environment.</p>
-      <p>In December we'll be talking about stakeholder engagement and storytelling, to get your point across and rolled-out. In the final series of workshops, we'll show you how to replicate this Github project and use this Next.js website as a template for your own eco-city project.</p>
+      <h2>L'objectif de ce projet est de mettre en place une méthodologie et une base de données géographiques open source à exploiter par les villes et les villages pour élaborer des plans d'action climat.</h2> 
+      <p>La principale source de données est &nbsp;<a href="https://www.socialprogressindex.com/">l'indice de progrès social</a>&nbsp;&nbsp;et les couches de risque climatique du&nbsp;<a href="https://interactive-atlas.ipcc.ch/">IPCC</a>&nbsp;qui seront extraites, modélisées et téléchargées sur la base de données géographiques hébergée par la Society for Conservation and GIS,&nbsp;<strong><a href="https://scgismaps.maps.arcgis.com/home/index.html">le SCGIS</a></strong> sur la carte&nbsp;<a href="https://arcg.is/4r5yb">Mapping a good life for all within planetary boundaries</a>&nbsp;une carte web.</p>
+      <p><strong>Veuillez rejoindre le SCGIS pour obtenir un compte ArcGIS Online gratuit et accéder à toutes les couches utilisées dans la carte Web.</strong></p>
       
-      <h2><Link href="blog/collaborate">Collaborate</Link></h2>
+      <hr />
 
-       <p>An Open Source and Creative Commons Initiative to Build Resilient Cities & Villages.</p>
-
-          <button className="btn">      <a href="https://sdgs.un.org/2030agenda" target="_blank"
-            className="card">
+      <h2><Link href="blog/collaborate">Collaborater</Link></h2>
+      <p>Il s'agit d'une initiative Open Source et Creative Commons pour construire des villes et des villages résilients, vous pouvez contribuer en assistant à des ateliers ou en travaillant sur le site Web Next.js.</p>
+         
+            <button className="btn">     
             <Image 
-              src="/images/SDG10-EN.png"
+              src="/images/SAW.jpg"
               height={400}
               width={400}
-              alt="SDG Goal 10. Reduce inequality within and among countries"
+              alt="Au-delà des objectifs de développement durable (ODD) : aborder la durabilité et le développement"
             />
-            <h3>Reduce inequality</h3>
-            <p>within and among countries.</p>
-          </a></button>
-          
-          <button className="btn">      <a href="https://sdgs.un.org/2030agenda" target="_blank"
-            className="card">
-            <Image 
-              src="/images/SDG11-EN.png"
-              height={400}
-              width={400}
-              alt="SDG Goal 11. Make cities and human settlements inclusive, safe, resilient and sustainable"
-            />
-            <h3>Make cities</h3>
-            <p>and human settlements inclusive,safe, resilient and sustainable</p> 
-          </a></button>
+            <h4>Plans d'action climat</h4>
+            <p>pour Villes & Villages.</p>
+            </button>
 
-            <button className="btn">      <a href="https://sdgs.un.org/2030agenda" target="_blank"
-            className="card">
+            <button className="btn">      
             <Image 
-              src="/images/SDG13-EN.png"
+              src="/images/SDG10-FR.png"
               height={400}
               width={400}
-              alt="SDG Goal 13. Take urgent action to combat climate change and its impacts"
+              alt="Objectif 10 des ODD. Réduire les inégalités au sein des pays et entre eux"
             />
-            <h3>Take urgent action</h3>
-            <p>to combat climate change and its impacts.</p>
-          </a></button>
+            <h3>Réduire les inégalités</h3>
+            <p>à l'intérieur et entre les pays.</p>
+          </button>
+
+     <p>Après avoir assisté à tous les ateliers, les participants auraient ou seraient capables de créer une Story Map ArcGIS et ont contribué au projet en ajoutant des données à la carte Web.</p>  
+
+
+      <h4><Link href="/events/e3">Aller au-delà des objectifs de développement durable</Link></h4>
+      <p>Découvrez pourquoi il est nécessaire de mettre la durabilité et le développement sur le même pied et d'aller au-delà des objectifs de développement durable, les ODD. Les ateliers se concentrent sur ces trois ODD, 10-11-13, nous explorerons comment leurs indicateurs se chevauchent et interagissent et pourquoi il est nécessaire de construire des plans d'action climatique en pensant à eux.</p>
+      
+        
+          <button className="btn">      
+            <Image 
+              src="/images/SDG11-FR.png"
+              height={400}
+              width={400}
+              alt="Objectif ODD 11. Rendre les villes et les établissements humains inclusifs, sûrs, résilients et durables"
+            />
+            <h3>Faire des villes et les établissements</h3>
+            <p>humains inclusifs, sûrs, résilients et durables.</p> 
+          </button>
+
+            <button className="btn">      
+            <Image 
+              src="/images/SDG13-FR.png"
+              height={400}
+              width={400}
+              alt="Objectif ODD 13. Prendre des mesures urgentes pour lutter contre le changement climatique et ses impacts"
+            />
+            <h3>&nbsp;&nbsp;&nbsp;Prendre des mesures urgentes&nbsp;&nbsp;&nbsp;</h3>
+            <p>pour lutter contre le changement climatique et ses impacts.</p>
+          </button>
+
      <br></br>
-      <p>Contributors are people who have completed the workshops, and are willing to write an article for the blog on their eco-city project. Contributors will also have created an ArcGIS Story Map and added data to the “Mapping a good life for all within planetary boundaries” web map.</p>
-      <p>The ideal collaborator will be a sustainability professional who is also an ArcGIS and Next.js developer, with an ArcGIS Online and Github account. If you are short on skills or resources, you can take the workshops to get started and then ask to collaborate on the next series of events.</p>
-      <p>You can collaborate by organizing workshops or contributing to the development of the website, for example by translating the eco-city model into a language other than French or English. </p>
-
-      <h3><Link  href="/events">Workshops Themes</Link></h3>
-
-          <button className="btn">      <a href="https://interactive-atlas.ipcc.ch/" target="_blank"
-            className="card">
+           <h2><Link href="blog/explore">Explorer</Link>
+      </h2>
+      <p>Cette plate-forme héberge un ensemble de ressources pour des Professionals ArcGIS et de Développement Durable Sustainability afin de vous aider à construire des villes et des villages résilients. Participez aux ateliers de &nbsp;<Link href="/events/e4" >septembre-octobre</Link>&nbsp;pour en savoir plus sur les risques écologiques auxquels votre ville ou ville natale est confrontée et pourquoi il est important d'aller au-delà des ODD pour lutter contre le changement climatique et les inégalités.</p>
+      
+            <button className="btn">     
             <Image 
               src="/images/CMP.png"
               height={300}
               width={400}
-              alt=""
+              alt="https://interactive-atlas.ipcc.ch/"
             />
-            <h4>Climate Risk</h4>
-            <p>Temperature</p>
-          </a></button>
+            <h4>Précipitation</h4>
+            <p>en tant que risque climatique.</p>
+          </button>
 
-            <button className="btn">      <a href="https://grist.org/climate-energy/are-there-two-different-versions-of-environmentalism-one-white-one-black/" target="_blank"
-            className="card">
-            <Image 
-              src="/images/BWT.png"
-              height={300}
-              width={400}
-              alt="Two different versions of environmentalism"
-            />
-            <h4>Green Ceiling</h4>
-            <p>reduce inequalities in environmental movements.</p>
-          </a></button>
 
-            <button className="btn">      <a href="https://interactive-atlas.ipcc.ch/" target="_blank"
-            className="card">
+
+        <button className="btn">      
             <Image 
               src="/images/CMT.png"
               height={300}
               width={400}
-              alt=""
+              alt="https://interactive-atlas.ipcc.ch/"
             />
-            <h4>Climate Risk </h4>
-            <p>Precipitation.</p>
-          </a></button>
+            <h4>Température</h4>
+            <p>comme un risque climatique.</p>
+        </button>
 
-            <button className="btn">      <a href="https://www.ecologyandsociety.org/vol14/iss2/art32/" target="_blank"
+      <p><Link href="/events/e12" >Novembre</Link>&nbsp;est le temps de la science des données, vous devrez remplir quatre enquêtes pour en savoir plus sur les fondements sociaux et les limites planétaires de la ville ou du village sur lequel vous avez choisi de travailler. Et modéliser comment nous pouvons lutter contre le changement climatique et réduire les inégalités dans nos communautés en utilisant la biométrie pour créer un environnement urbain durable.</p>
+           <button className="btn">      <a href="https://www.ecologyandsociety.org/vol14/iss2/art32/" target="_blank"
             className="card">
             <Image 
               src="/images/PB.png"
               height={300}
               width={400}
-              alt="A good life for all within planetary boundaries"
+              alt="Une bonne vie pour tous dans les limites planétaires"
             />
-            <h4>Ecology and Society</h4>
+            <h4>Écologie et société</h4>
           </a></button>
 
-            <button className="btn">      <a href="https://github.com/users/lindangulopez/projects/10" target="_blank"
-            className="card">
-            <Image 
-              src="/images/ECO.png"
-              height={300}
-              width={400}
-              alt=""
-            />
-            <h4>Explore & Collaborate</h4>
-          </a></button>
-
-            <button className="btn">      <a href="https://codepen.io/lindangulopez/pen/WNOeryg" target="_blank"
-            className="card">
+          <button className="btn">      
             <Image 
               src="/images/CDS.png"
               height={300}
               width={400}
-              alt="Model A good life for all within planetary boundaries"
+              alt="Modèle Une bonne vie pour tous dans les limites de la planète"
             />
-            <h4>Data Science</h4>
-          </a></button>
-
-                    <button className="btn">      <a href="https://arcg.is/4r5yb" target="_blank"
-            className="card">
+            <h4>Science des données</h4>
+           </button>
+      
+      <p>En&nbsp;<Link href="/events/e16">décembre</Link>&nbsp;nous parlerons de l'engagement des parties prenantes et de la narration, pour faire passer votre message et le déployer. Dans la dernière série d'ateliers, nous vous montrerons comment reproduire ce projet Github et utiliser ce site Web Next.js comme modèle pour votre propre projet d'éco-ville.</p>
+          <button className="btn">    
             <Image 
-              src="/images/SLE.png"
+              src="/images/BWT.png"
               height={300}
               width={400}
-              alt="Life Expectanct: https://www.socialprogressindex.com/"
+              alt="Deux versions différentes de l'environnementalisme"
             />
-            <h4>A Good Life</h4>
-            </a></button>
+            <h4>Plafond Vert</h4>
+            <p>réduire les inégalités dans les mouvements écologistes.</p>
+          </button>
+      <p>Les ateliers vous guideront sur la façon de configurer et d'obtenir un compte ArcGIS Online et Github, ce qui vous permettra de collaborer en participant à des ateliers. Vous pouvez également contribuer au &nbsp;<Link href="/events/e20">développement du site internet</Link>&nbsp; par exemple en traduisant le modèle d'éco-ville dans une langue autre que le français ou l'anglais.</p>
 
-            <button className="btn">      <a href="https://lindangulopez.github.io/sustainable-development/" target="_blank"
-            className="card">
-            <Image 
-              src="/images/SAW.jpg"
-              height={300}
-              width={400}
-              alt="Beyond the Sustainable Development Goals (SDGs) : Addressing Sustainability and Development "
-            />
-            <h4>Climate Action Plans</h4>
-            </a></button>
+      <h3><Link  href="/events">Thèmes des ateliers</Link></h3>
+ 
 
-            <button className="btn">      <a href="https://arcg.is/4r5yb" target="_blank"
-            className="card">
-            <Image 
-              src="/images/SPB.png"
-              height={300}
-              width={400}
-              alt="Biodiversity: https://www.socialprogressindex.com/"
-            />
-           <h4>For All</h4>
-           </a></button>
    </div>
 
     <div>

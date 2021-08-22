@@ -93,3 +93,8 @@ img {
   width: 90%;
   margin: 1.5rem;
 }
+
+hr{
+  margin: 1.5rem;
+  border: 1px solid #e4dcb7;
+}
