@@ -136,7 +136,7 @@ const OPEN_OFFICE = [
         core:'Au cœur de ses préoccupations se trouvent deux facteurs, les fondements sociaux et les frontières planétaires',
         SF:'Les fondements sociaux sont l\'alimentation et la sécurité, la santé et l\'éducation, le revenu et le travail, la paix et la justice, la voix politique, l\'équité sociale, l\'équité entre les sexes, le logement, les réseaux, la pauvreté énergétique et la sécurité de l\'eau.',
         PB: 'Les limites planétaires sont le changement climatique, l\'acidification, la pollution chimique, la charge d\'azote et de phosphore, les prélèvements d\'eau douce, la conversion des terres, la perte de biodiversité, la pollution de l\'air et l\'appauvrissement de la couche d\'ozone.',    location: 'ZOOM, 07:00 PM, Paris, FR',
-        time: '07:00 PM',
+        time: 'ZOOM, 07:00 PM, Paris, FR',
         date: '2021-09-19',
         zoomLink: 'https://us04web.zoom.us/j/74084846067?pwd=K0NBTm9iV2tvRThML2dtNnI1NC9XQT09',
         zoomId:'740 8484 6067',
