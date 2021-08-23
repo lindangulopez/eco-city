@@ -92,7 +92,7 @@ function HomePage(props) {
      <br></br>
            <h2><Link href="blog/explore">Explore</Link>
       </h2>
-      <p>This platform hosts a set of resources for ArcGIS Sustainability Professionals to help you build resilient cities and towns. Attend the&nbsp;<Link href="/events/e3" >September-October </Link>&bnsp;Workshops to learn more about the ecological risks your city or hometown faces and why it is important to go beyond the SDGs to tackle climate change and inequality.</p>
+      <p>This platform hosts a set of resources for ArcGIS Sustainability Professionals to help you build resilient cities and towns. Attend the&nbsp;<Link href="/events/e3" >September-October </Link>&nbsp;Workshops to learn more about the ecological risks your city or hometown faces and why it is important to go beyond the SDGs to tackle climate change and inequality.</p>
       
             <button className="btn">     
             <Image 
