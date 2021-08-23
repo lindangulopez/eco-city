@@ -128,7 +128,7 @@ function HomePage(props) {
               alt="A good life for all within planetary boundaries"
             />
             <h4>Ecology & Society</h4>
-          </a></button>
+            </a></button>
 
           <button className="btn">      
             <Image 
@@ -138,6 +138,7 @@ function HomePage(props) {
               alt="Model A good life for all within planetary boundaries"
             />
             <h4>Data Science</h4>
+            <br></br><br></br>
            </button>
       
       <p>In&nbsp;<Link href="/events/e15">December</Link>&nbsp;we'll be talking about stakeholder engagement and storytelling, to get your point across and rolled-out. In the final series of workshops, we'll show you how to replicate this Github project and use this Next.js website as a template for your own eco-city project.</p>

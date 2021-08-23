@@ -119,6 +119,7 @@ function HomePage(props) {
         </button>
 
       <p><Link href="/events/e12" >Novembre</Link>&nbsp;est le temps de la science des données, vous devrez remplir quatre enquêtes pour en savoir plus sur les fondements sociaux et les limites planétaires de la ville ou du village sur lequel vous avez choisi de travailler. Et modéliser comment nous pouvons lutter contre le changement climatique et réduire les inégalités dans nos communautés en utilisant la biométrie pour créer un environnement urbain durable.</p>
+           
            <button className="btn">      <a href="https://www.ecologyandsociety.org/vol14/iss2/art32/" target="_blank"
             className="card">
             <Image 
@@ -137,7 +138,9 @@ function HomePage(props) {
               width={400}
               alt="Modèle Une bonne vie pour tous dans les limites de la planète"
             />
+            <br></br>
             <h4>Science des données</h4>
+            <br></br><br></br>
            </button>
       
       <p>En&nbsp;<Link href="/events/e16">décembre</Link>&nbsp;nous parlerons de l'engagement des parties prenantes et de la narration, pour faire passer votre message et le déployer. Dans la dernière série d'ateliers, nous vous montrerons comment reproduire ce projet Github et utiliser ce site Web Next.js comme modèle pour votre propre projet d'éco-ville.</p>
