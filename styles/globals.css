@@ -20,10 +20,10 @@ h6 {
   font-family: 'Lato', sans-serif;
   margin: 3rem;
   padding-top: 1.5rem;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-  color:rgb(5, 55, 55);
+  color:white;
 
 }
 
@@ -73,6 +73,9 @@ ul {
 }
 
 a {
+ margin: .75rem;
+ padding-top: 1.5rem;
+ font-size: 2rem;
  color:white;   
  text-decoration: none;
  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
