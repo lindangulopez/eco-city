@@ -3,8 +3,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-export default function ExporeFR({ isConnected }) {
+export default function Explore({ isConnected }) {
   return (
+    <>
 
     <div className="container">
       <Head>
@@ -15,106 +16,52 @@ export default function ExporeFR({ isConnected }) {
       <main>
 
       <div className="container">
-        <h1 className="title card">Welcome to<Link href="/" >&nbsp;Explore & Collaborate !!</Link></h1>
+        <h1 className="title card">Bienvenue sur<Link href="/" >&nbsp;Explore & Collaborate !!</Link></h1>
 
-        <h2 className="title card">This is a list of resources to help you Build Resilient Cities & Villages.</h2>
-
-        <iframe width="370" height="300" src="https://www.youtube.com/embed/ha4V-mmAO6E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        
-      </div>
-
-        <div className="grid">
-            
-          <a href="https://sdgs.un.org/goals/goal13" target="_blank"
-            className="card">
-            <h4 className="description">A Good Life &rarr; </h4>
-            <p>Do you want to create a climate action plan?</p>
-            <Image 
-              src="/images/SDG13-EN.png"
-              height={350}
-              width={350}
-              alt=""
-            />
-          </a>
-
-          <a href="https://grist.org/climate-energy/are-there-two-different-versions-of-environmentalism-one-white-one-black/" target="_blank"
-            className="card">
-            <h4 className="description">For All &rarr; </h4>
-            <p>But feel like you've reached the green ceiling !!</p>
-            <Image 
-              src="/images/SDG11-EN.png"
-              height={350}
-              width={350}
-              alt="Different versions of environmentalism"
-            />
-          </a>
-
-          <a href="https://sdgs.un.org/goals/goal10"
-            className="card">
-            <h4 className="description">Explore &rarr; </h4>
-            <p>How to tackle climate change and reduce inequalities.</p>
-            <Image 
-              src="/images/SDG10-EN.png"
-              height={350}
-              width={350}
-              alt=""
-            />
-          </a>
-
-          <a href="https://biomimicry.net/the-buzz/resources/designlens-lifes-principles/" target="_blank"
-            className="card">
-            <h4 className="description">Go beyond the SDGs &rarr; </h4>
-            <p>Ask nature how you can build resilance.</p>
-            <Image 
-              src="/images/BAN.png"
-              height={350}
-              width={350}
-              alt=""
-            />
-          </a>
-
-          <a href="https://interactive-atlas.ipcc.ch/" target="_blank"
-            className="card">
-            <h4 className="description">IPCC Climate Model, Precipitation &rarr; </h4>
-            <p>Get to know the risks your home town or city faces.</p>
-            <Image 
-              src="/images/CMP.png"
-              height={350}
-              width={400}
-              alt="Climate Models: 2040 - 2059 Analyses Moderate Emissions (RCP 4.5) - Precipitation"
-            />
-          </a>
-
-          <a href="https://interactive-atlas.ipcc.ch/" target="_blank"
-            className="card">
-            <h4 className="description">Ask the right questions &rarr; </h4>
-            <p>Are you more at risk to drought or flooding?</p>
-            <Image 
-              src="/images/CMT.png"
-              height={350}
-              width={400}
-              alt="Climate Models: 2040 - 2059 Analyses Moderate Emissions (RCP 4.5) - Temperature"
-            />
-          </a>
-
-
-          <a href="https://groups.google.com/g/explore-collaborate" target="_blank"
-            className="card">
-            <h4 className="description">Take Action &rarr; </h4>
-            <p>Ensure Stakeholder Engagement.</p>
-            <Image 
+                          <Image 
               src="/images/ECO.png"
-              height={350}
-              width={400}
+              height={650}
+              width={750}
               alt=""
             />
-          </a>
+
+        <h2 className="title card">Ceci est une liste de ressources pour vous aider à construire des villes et des villages résilients.</h2>       
 
       </div>
+
 
       <h3>  <a href="https://groups.google.com/g/explore-collaborate" target="_blank"
-            className="card">Workshops have been set up</a> </h3>
-            <p>to strengthen your skills in sustainable-development-and-development, data science, story-telling-with-story-maps and eco-web-development.</p>
+            className="card">Des ateliers ont été mis en place</a> </h3>
+            <p>pour renforcer vos compétences en développement-et-développement-durable, science des données, story-telling-with-story-maps et eco-web-development.</p>
+
+  <p>Contenu à venir :</p>  
+	<p>Septembre 2021 - Janvier 2022 </p>
+        <h4 className="description">Conseils et ateliers environnementaux </h4>
+	<ul>
+	<dt>Ressources pour les ateliers</dt>
+	<dd>Invitation to Collaborate</dd>
+	<dd>Invitation à collaborer</dd>
+  <dt>https://github.com/users/lindangulopez/projects/10#column-15395375</dt>
+	<dd>Sustainability & Development</dd>
+	<dd>Développement durable et développement</dd>
+  <dt>https://github.com/users/lindangulopez/projects/10#column-15395582</dt>
+	<dd>Beyond the SDGs</dd>
+	<dd>Au-delà des ODDs</dd>
+  <dt>https://github.com/users/lindangulopez/projects/10#column-15395582</dt>
+	<dd>Data Science</dd>
+	<dd>Science des données</dd>
+  <dt>https://github.com/users/lindangulopez/projects/10#card-67251931</dt>
+	<dd>Story Map</dd>
+	<dd>Carte de l'histoire</dd>
+  <dt>https://github.com/users/lindangulopez/projects/10#card-67136105</dt>
+	<dd>Eco Web Development</dd>
+	<dd>Développement Web Éco</dd>
+  <dt>https://lindangulopez.github.io/CRI2/</dt>
+	<dt>Environmental Consulting</dt>
+	<dd>Climate Action Plans</dd>
+	<dd>Plans d'Action Climate</dd>
+   <dt>https://www.linkedin.com/in/lindangulopez/</dt>
+	</ul>      
       
       </main>
 
@@ -280,6 +227,7 @@ export default function ExporeFR({ isConnected }) {
         }
       `}</style>
     </div>
+    </>
 
   )
 }

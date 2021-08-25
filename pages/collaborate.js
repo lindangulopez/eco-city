@@ -19,7 +19,7 @@ export default function Collaborate({ isConnected }) /*  */{
           <Image 
               src="/images/ECO.png"
               height={650}
-              width={650}
+              width={750}
               alt=""
             />
 
