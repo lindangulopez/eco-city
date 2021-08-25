@@ -30,7 +30,7 @@ function EventDetailPage(props) {
         <h3>{event.description}</h3>
         <p className="small">{event.SF}</p>
         <p className="small">{event.PB}</p>
-        <p className="tiny"><a href="https://www.ecologyandsociety.org/vol14/iss2/art32/ " target="_blank">{event.references}</a></p>
+        <p className="small"><a href="https://www.ecologyandsociety.org/vol14/iss2/art32/ " target="_blank">{event.references}</a></p>
         <p><button className="btn"><a href="https://groups.google.com/g/explore-collaborate">Join us</a></button></p>
       </EventContent>
     </Fragment>

@@ -9,58 +9,46 @@ export default function OpenSource() {
       </Head>
 
       <main>
-	<h1 className="title">Mentions Légales</h1>
-        <h2 >Directeur de Publication et Editeur du site</h2>
 
+	<h1 className="title">Legal Notice</h1>
+  <p>Last updated 2021-08-25</p>
+  
 
-        <h3 className="description">Informations sur l'entreprise</h3>
-	 
-	 <h4>Madame Linda Angulo Lopez:</h4>
-        <ul>
-          <dl>
-            <dt>Raison sociale :</dt>
-            <dd>LUTCHAMMA DUDOO ANGULO LOPEZ/LINDA</dd>
-            <dt>Numéro Siren :</dt>
-            <dd>511680068</dd>
-            <dt>Numéro Siret :</dt>
-            <dd>51168006800018 (siège de l'entreprise) </dd>
-	    <dt>Numéro TVA intracommunautaire :</dt>
-	    <dd>FR84511680068</dd>
-	    <dt>Greffe :</dt>
-	    <dd>RCS Melun</dd>
-	    <dt>Code NAF / APE :</dt>
-	    <dd>7022Z (conseil pour les affaires et autres conseils de gestion) </dd>
-	    <dt>Date d'immatriculation :</dt>
-	    <dd>2009-03-16</dd>
-	    <dt>Type d'entrepreneur :</dt>
-	    <dd>Fontainebleau (Seine-et-Marne) </dd>
-	    <dt>Adresse de l'entreprise</dt>
-	    <dd>40 Rue Paul Allaine, Héricy, 77850, FR</dd>
-	    <dt>Langues anglais et français</dt>
-	    <dd>ainsi que l'afrikaans et un peu d'espagnol</dd>
-          </dl>
+  <h3 className="title">Web Site Information</h3>
+
+  <h4>Website Hosting</h4>
+  <p className="description">On  Vercel with Github intergration.</p>
+	<ul>
+	<dt>Technology</dt>
+	<dd>ArcGIs Pro, JamStack, Next.js</dd>
+	<dt>Team name:</dt>
+	<dd>city-sustainable-development</dd>
+  <dd>https://vercel.com/city-sustainable-development</dd>
+	<dt>Nom de repository:</dt>
+	<dd>eco-city</dd>
+  <dd>https://vercel.com/city-sustainable-development/eco-city</dd>
+  <dt>Geo-database</dt>
+  <dd>Online ArcGIS Web Map</dd>
 	</ul>
 
-	<h3>Politics Open Source et Creative Commons.</h3>
+	<h4 className="description">Open Source et Creative Commons Policy:</h4>
   <ul>
-  <dt>Lien du Projet sur Github</dt>
+  <dt>Github Project</dt>
 	<dd>https://github.com/users/lindangulopez/projects/10</dd>
-  <dd>Le projet Explore et Collaborate utilise Github pour publier et partager des informations sur le projet, en forme de Gists et Repositories public, dont open source.</dd>
-  <dd>Une fois le projet terminé, le site Web sera rendu public sur Github et partagé en tant que modèle, dans le S56 du 2021.</dd>
-	<dt>Lien du Google Group</dt>
+  <dd>The Explore and Collaborate project uses Github to publish and share information about the project, in the form of public Gists and Repositories, and with cards on the projects dashboard.</dd>
+  <dd>Once the project is complete, the website will be made public on Github and shared as a template, in W56 of 2021.</dd>
+	<dt>Google Group</dt>
 	<dd>https://groups.google.com/g/explore-collaborate</dd>
-  <dt>Lien de Géo-data</dt>
+  <dt>Online Web Map</dt>
   <dd>https://arcg.is/4r5yb</dd>
   </ul>
 
-   <h3 className="description">Informations sur le site Web</h3>
+   
 
-
-
-	<h3>Catégories:</h3>
-        <h4 className="description">Ateliers et conseil en environnement</h4>
+	<h3>Themes:</h3>
+  <h4 className="description">Environmental Consulting & Workshops</h4>
 	<ul>
-	<dt>Ateliers</dt>
+	<dt>September 2021 -January 2022 Workshops</dt>
 	<dd>Invitation to Collaborate</dd>
 	<dd>Invitation à collaborer</dd>
 	<dd>Sustainability & Development</dd>
@@ -79,63 +67,93 @@ export default function OpenSource() {
 	</ul>
 
 
-		
-	<h3>Hérbegement et Licence</h3>
-        <p className="description">Avec Vercel et l’intégration continue du Github</p>
-	<ul>
-	<dt>Technologie</dt>
-	<dd>JamStack, Next.js</dd>
-	<dt>Nom de Team:</dt>
-	<dd>city-sustainable-development</dd>
-  <dd>https://vercel.com/city-sustainable-development</dd>
-	<dt>Nom de repository:</dt>
-	<dd>eco-city</dd>
-  <dd>https://vercel.com/city-sustainable-development/eco-city</dd>
-	<dt>Licence</dt>
-	<dd>Open Source et Creative Commons</dd>
-	</ul>
+ <h4>Languages</h4>		
+ <ul>
+<dt>Natural Languages</dt>
+<dd>English: 70%</dd>
+<dd>French: 30%</dd>
+<dt>Programming Languages</dt>
+<dd>Javascript: 96%</dd>
+<dd>CSS: 4%</dd>
+</ul>
 
-	<h4>Index du Site: 2021-08-23</h4>
+
+	<h4>Next.js Single Page Application</h4>
+  <p>Next.js Analytics is enabled for this website, a real experience score computed by visits.</p>
+  <h5>Here is an example of a page build</h5>
   <ul>
   <dt>λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)</dt>
   <dt>○  (Static)  automatically rendered as static HTML (uses no initial props)</dt>
   <dt>●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)</dt>
   <dt>&nbsp;&nbsp; (ISR)     incremental static regeneration (uses revalidate in getStaticProps)</dt>
   <br></br>
-<dd>┌ ● / (ISR: 1800 Seconds) (700 ms) </dd>
-<dd>├   /_app/</dd>
-<dd>├ λ /[uid]</dd>
-<dd>├ ○ /404 </dd>
-<dd>├ ● /allFeedback </dd>
-<dd>├ λ /api/feedback </dd>
-<dd>├ λ /api/feedback/[feedbackId] </dd>
-<dd>├ ○ /blog/collaborat</dd>
-<dd>├ ○ /blog/explore </dd>
-<dd>├ ● /ENG (ISR: 1800 Seconds)</dd>
-<dd>├ ● /events (ISR: 60 Seconds) (681 ms)</dd>
-<dd>├ ● /events/[eventId] (ISR: 30 Seconds) (1230 ms)</dd>
-<dd>├   └ css/042a0bc54b287da949ee.css </dd>
-<dd>├   ├ /events/e1</dd>
-<dd>├   ├ /events/e11</dd>
-<dd>├   ├ /events/e15</dd>
-<dd>├   └ [+3 more paths]</dd>
-<dd>├ ○ /feedback </dd>
-<dd>├ ● /FR (ISR: 1800 Seconds) (656 ms)</dd>
-<dd>├ ○ /glossary </dd>
-<dd>├ ○ /last-sales </dd>
-<dd>├ ● /products/[pid]</dd>
-<dd>├   └ /products/FR</dd>
-<dd>├ ○ /products/blog/collaborer </dd>
-<dd>├ ○ /products/blog/explorer </dd>
-<dd>└ λ /user-profile </dd>
-<dd>+ First Load JS shared by all </dd>
-<dd>├ chunks/framework.895f06.js</dd>
-<dd>├ chunks/main.20da7f.js</dd>
-<dd>├ chunks/pages/_app.64239b.js</dd>
-<dd>├ chunks/webpack.ddd010.js</dd>
-<dd>└ css/782232645a15e3d323ca.css </dd>
+  <dd>┌ ● / (ISR: 1800 Seconds) (669 ms) </dd>
+  <dd>├   /_app </dd>
+  <dd>├ λ /[uid] </dd>
+  <dd>├ ○ /404 </dd>
+  <dd>├ ● /allFeedback </dd>
+  <dd>├ λ /api/feedback</dd>
+  <dd>├ λ /api/feedback/[feedbackId]</dd>
+  <dd>├ ○ /blog</dd>
+  <dd>├ ○ /collaborate</dd>
+  <dd>├ ○ /collaborateFR </dd>
+  <dd>├ ● /events (ISR: 60 Seconds) (639 ms)</dd>
+  <dd>├ ● /events/[eventId] (ISR: 30 Seconds) (1335 ms)</dd>
+  <dd>├   └ css/042a0bc54b287da949ee.css</dd>
+  <dd>├   ├ /events/e1</dd>
+  <dd>├   ├ /events/e11</dd>
+  <dd>├   ├ /events/e15</dd>
+  <dd>├   └ [+3 more paths]</dd>
+  <dd>├ ○ /explore</dd>
+  <dd>├ ○ /exploreFR </dd>
+  <dd>├ ○ /feedback</dd>
+  <dd>├ ● /FR (ISR: 1800 Seconds) (608 ms) </dd>
+  <dd>├ ○ /glossary </dd>
+  <dd>├ ○ /last-sales</dd>
+  <dd>├ ○ /policy </dd>
+  <dd>├ ● /products/[pid] </dd>
+  <dd>&nbsp;└ /products/FR</dd>
+  <dd>└ λ /user-profile</dd>
+  <dd>+ First Load JS shared by all </dd>
+  <dd>&nbsp;├ chunks/framework.895f06.js</dd>
+  <dd>&nbsp;├ chunks/main.20da7f.js</dd>
+  <dd>&nbsp;├ chunks/pages/_app.4f68c9.js </dd>
+  <dd>&nbsp;├ chunks/webpack.ddd010.js</dd>
+  <dd>&nbsp;└ css/e11fb6eec6d98c0fea85.css</dd>
 
 </ul>
+
+  <h3 className="title">Company Information</h3>
+  <h5>Website Developer and Director of Publication</h5>
+	 
+	 <h4 className="description">Madame Linda Angulo Lopez:</h4>
+
+        <ul>
+          <dl>
+            <dt>Raison sociale :</dt>
+            <dd>LUTCHAMMA DUDOO ANGULO LOPEZ/LINDA</dd>
+            <dt>Numéro Siren :</dt>
+            <dd>511680068</dd>
+            <dt>Numéro Siret :</dt>
+            <dd>51168006800018 (siège de l'entreprise) </dd>
+            <dt>Numéro TVA intracommunautaire :</dt>
+            <dd>FR84511680068</dd>
+            <dt>Greffe :</dt>
+            <dd>RCS Melun</dd>
+            <dt>Code NAF / APE :</dt>
+            <dd>7022Z (conseil pour les affaires et autres conseils de gestion) </dd>
+            <dt>Date d'immatriculation :</dt>
+            <dd>2009-03-16</dd>
+            <dt>Type d'entrepreneur :</dt>
+            <dd>Profession libérale </dd>
+            <dt>Commune d'implantation :</dt>
+            <dd>Fontainebleau (Seine-et-Marne) </dd>
+            <dt>Adresse de l'entreprise</dt>
+            <dd>40 Rue Paul Allaine, Héricy, 77850, FR</dd>
+            <dt>https://www.linkedin.com/in/lindangulopez/</dt>
+            </dl>
+	</ul>
+
 
        </main>
 

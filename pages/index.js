@@ -153,7 +153,7 @@ function HomePage(props) {
             <h4>Green Ceiling</h4>
             <p>reduce inequalities in environmental movements.</p>
           </button>
-      <p>The workshops will guide you on how to set up and get an ArcGIS Online and Github account, which will enable you to collaborate by participating in workshops. You can also contribute to the <Link href="/events/e19">website development</Link></p>
+      <p>The workshops will guide you on how to set up and get an ArcGIS Online and Github account, which will enable you to collaborate by participating in workshops. You can also contribute to the <Link href="/events/e19">website development</Link>&nbsp;</p>
 
       <h4><Link  href="/events">All Workshops</Link></h4>
 
