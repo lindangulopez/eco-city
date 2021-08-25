@@ -10,14 +10,16 @@ function Layout(props) {
       <hr />
       <main>{props.children}</main>
       <hr/>
-      <h2><Link href="/feedback">Feedback</Link></h2>
+      <h2><Link href="/feedback">Bookings & Feedback</Link></h2>
+      <p><Link href="/policy">An Open Source and Creative Commons Project</Link></p>
       <p></p>
       <hr />
       <hr/>
      <div>
             <footer className="footer">
+          
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://vercel.com"
           target="_blank"
           rel="noopener noreferrer"
         >

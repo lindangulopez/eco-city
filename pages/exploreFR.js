@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-export default function Explore({ isConnected }) {
+export default function ExporeFR({ isConnected }) {
   return (
 
     <div className="container">

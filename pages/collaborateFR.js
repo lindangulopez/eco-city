@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-export default function Collaborate({ isConnected }) /*  */{
+export default function CollaborateFR({ isConnected }) /*  */{
   return (
 
     <div className="container">

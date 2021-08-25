@@ -29,8 +29,8 @@ function HomePage(props) {
             />
           </button>
      
-      <h2>The aim of this project is to set up a methodology and opensource Geo-data base for cities and villages to exploit so that they can draft Climate Action Plans.</h2> 
-      <p>The key data source is the&nbsp;<a href="https://www.socialprogressindex.com/"> Social Progress Index</a>&nbsp;&nbsp;and the IPCC's&nbsp;<a href="https://interactive-atlas.ipcc.ch/">Climate Risk Layers</a>&nbsp; which will be sourced, modeled and uploaded to the geo-data base hosted by the Society for Conservation and GIS, <strong><a href="https://scgismaps.maps.arcgis.com/home/index.html">the SCGIS</a></strong> on the &nbsp;<a href="https://arcg.is/4r5yb">Mapping a good life for all within planetary boundaries</a>&nbsp;web map.</p>
+      <h2>The aim of this project is to set up a methodology and opensource Geo-data base for cities and villages to exploit so that they can draft their Climate Action Plans.</h2> 
+      <p>The key data source is the&nbsp;<a href="https://www.socialprogressindex.com/" target="_blank"> Social Progress Index</a>&nbsp;&nbsp;and the IPCC's&nbsp;<a href="https://interactive-atlas.ipcc.ch/" target="_blank">Climate Risk Layers</a>&nbsp; which will be sourced, modeled and uploaded to the geo-data base hosted by the Society for Conservation and GIS, <strong><a href="https://scgismaps.maps.arcgis.com/home/index.html" target="_blank">the SCGIS</a></strong> on the &nbsp;<a href="https://arcg.is/4r5yb" target="_blank">Mapping a good life for all within planetary boundaries</a>&nbsp;web map.</p>
       <p><strong>Please join the SCGIS, to get a free ArcGIS Online Account and access to all the layers used in the web map.</strong></p>
       
       <hr />
@@ -62,6 +62,7 @@ function HomePage(props) {
 
      <p> After attending all the workshops participants would have or be able to created an ArcGIS Story Map and contributed to the project by adding data to the web map.</p>  
 
+    <h3><Link  href="/events">Workshops Themes</Link></h3>
 
       <h4><Link href="/events/e3">Go beyond the Sustainability Development Goals</Link></h4>
       <p>Learn why it it necessary to put sustainability and development on the same footing and go beyond the Sustainability Development Goals, SDGs. Workshops focus on these three 3 SDGs, 10-11-13, we will explore how their indicators overlap and interact and why it is necessary to build climate action plans with them in mind.</p>
@@ -92,7 +93,7 @@ function HomePage(props) {
      <br></br>
            <h2><Link href="blog/explore">Explore</Link>
       </h2>
-      <p>This platform hosts a set of resources for ArcGIS Sustainability Professionals to help you build resilient cities and towns. Attend the&nbsp;<Link href="/events/e3" >September-October </Link>&nbsp;Workshops to learn more about the ecological risks your city or hometown faces and why it is important to go beyond the SDGs to tackle climate change and inequality.</p>
+      <p>This platform hosts a set of resources for ArcGIS Sustainability Professionals to help you build resilient cities and towns. Attend the&nbsp;<Link href="/events/e3" >September-October </Link>&nbsp;Workshops to learn more about the ecological risks your city or hometown faces and why it is important to tackle climate change and inequality.</p>
       
             <button className="btn">     
             <Image 
@@ -154,7 +155,7 @@ function HomePage(props) {
           </button>
       <p>The workshops will guide you on how to set up and get an ArcGIS Online and Github account, which will enable you to collaborate by participating in workshops. You can also contribute to the <Link href="/events/e19">development of the website</Link>&nbsp; for example by translating the eco-city model into a language other than French or English. </p>
 
-      <h3><Link  href="/events">Workshops Themes</Link></h3>
+      <h4><Link  href="/events">All Workshops</Link></h4>
 
  
 

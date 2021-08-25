@@ -125,3 +125,10 @@ hr{
 .logo {
   height: .5em;
 }
+
+form {
+	color:rgb(5, 55, 55);
+  background-image: linear-gradient(to bottom left,  #008b79, #e4dcb7);
+	border: 3px #008b79;
+}
+

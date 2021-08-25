@@ -15,13 +15,14 @@ function FeedbackPage(props) {
 
   return (
     <Fragment>
-    <h1>Feedback & Responses to Common Questions</h1>
+    <h1>All Feedback</h1>
+    <h2 className="title">We reserve the right to delete inappropriate posts.</h2>
       {feedbackData}
       <ul classNamne="center">
         {props.feedbackItems.map((item) => (
           <li key={item.id} className="center">
-             <li className="tiny"> {item.id}:</li>
-             <li className="tiny"> {item.email}:</li>
+             <li className="small"> {item.id}:</li>
+             <li className="small"> {item.email}:</li>
             &nbsp;&nbsp;<strong>{item.text}{' '}</strong>
 {/*             <button onClick={loadFeedbackHandler.bind(null, item.id)}>
               Show Details

@@ -39,36 +39,33 @@ function FeedbackPage() {
     <div>
      <div className="container center">
      <h1>Reach Out</h1>
-     <h2>Environmental Consulting & Climate Action for Cities & Villages</h2>
+     <h2>Environmental Consulting & Climate Action</h2>
     <p>You can ask questions, post news and give feedback about the Explore & Collaborate project here.</p> 
     <p> Please search answers to the questions most <Link href="/allFeedback">commonly asked</Link>&nbsp;before you sumit a query.</p>
-    <p>Zoom workshop details are posted on these web pages:
-    <br /><Link href="https://groups.google.com/g/explore-collaborate">Google Group</Link>&nbsp; 
-    <br /><Link href="https://github.com/users/lindangulopez/projects/10#column-15409972" >Github Group</Link></p>
+    <p>Zoom workshop details are posted on the Explore & Collaborate
+    <br /><Link href="https://groups.google.com/g/explore-collaborate">Google Group</Link>&nbsp; page; and 
+    <br /><Link href="https://github.com/users/lindangulopez/projects/10#column-15409972" >Github Group</Link> page.</p>
     <hr />
      
-    <div className="container center">
-          <form onSubmit={submitFormHandler}>
+    
+      <form onSubmit={submitFormHandler}>
         <div>
           <label htmlFor='email'>Your Email Address</label>
           <br></br>
-          <input type='email' id='email' name="email" maxlength="25" ref={emailInputRef} />
+          <input type='email' id='email' ref={emailInputRef} />
         </div>
-        
+        <br></br>
         <div>
-          <label htmlFor='feedback' >Your Feedback</label>
+          <label htmlFor='feedback'>Your Feedback</label>
           <br></br>
-          <textarea id='feedback' rows='5' name="feedback" maxLength="150" ref={feedbackInputRef}></textarea>
+          <textarea id='feedback' rows='5' ref={feedbackInputRef}></textarea>
         </div>
         <br></br>
         <button className ="btn">Send Feedback</button>
         <Link href="/policy"> 
-        <p className="title">We reserve the right to delete inappropriate posts.</p>
+        <p className="small">Please note we reserve the right to delete inappropriate posts.</p>
         </Link>
       </form>
-
-    </div>
-
       
 {/*       TypeError: Cannot read property 'map' of undefined
      <button onClick={loadFeedbackHandler}>Load Feedback</button>

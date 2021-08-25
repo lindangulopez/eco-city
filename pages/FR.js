@@ -19,7 +19,7 @@ function HomePage(props) {
     </h1>
 
     
-          <h2><Link href="/events/e15" >Cartographier une bonne vie pour tous dans les limites planétaires.</Link></h2>
+          <h2><Link href="/events/e16" >Cartographier une bonne vie pour tous dans les limites planétaires.</Link></h2>
           <button className="btn">
           <Image 
               src="/images/GL4A.png"
@@ -29,13 +29,13 @@ function HomePage(props) {
             />
           </button>
      
-      <h2>L'objectif de ce projet est de mettre en place une méthodologie et une base de données géographiques open source à exploiter par les villes et les villages pour élaborer des plans d'action climat.</h2> 
-      <p>La principale source de données est &nbsp;<a href="https://www.socialprogressindex.com/">l'indice de progrès social</a>&nbsp;&nbsp;et les couches de risque climatique du&nbsp;<a href="https://interactive-atlas.ipcc.ch/">IPCC</a>&nbsp;qui seront extraites, modélisées et téléchargées sur la base de données géographiques hébergée par la Society for Conservation and GIS,&nbsp;<strong><a href="https://scgismaps.maps.arcgis.com/home/index.html">le SCGIS</a></strong> sur la carte&nbsp;<a href="https://arcg.is/4r5yb">Mapping a good life for all within planetary boundaries</a>&nbsp;une carte web.</p>
+      <h2>L'objectif de ce projet est de mettre en place une méthodologie et une base de données géographiques open source à exploiter par les villes et les villages pour élaborer leurs plans d'action climat.</h2> 
+      <p>La principale source de données est &nbsp;<a href="https://www.socialprogressindex.com/" target="_blank">l'indice de progrès social</a>&nbsp;&nbsp;et les couches de risque climatique du&nbsp;<a href="https://interactive-atlas.ipcc.ch/" target="_blank">IPCC</a>&nbsp;qui seront extraites, modélisées et téléchargées sur la base de données géographiques hébergée par la Society for Conservation and GIS,&nbsp;<strong><a href="https://scgismaps.maps.arcgis.com/home/index.html" target="_blank">le SCGIS</a></strong> sur la carte&nbsp;<a href="https://arcg.is/4r5yb" target="_blank">Mapping a good life for all within planetary boundaries</a>&nbsp;une carte web.</p>
       <p><strong>Veuillez rejoindre le SCGIS pour obtenir un compte ArcGIS Online gratuit et accéder à toutes les couches utilisées dans la carte Web.</strong></p>
       
       <hr />
 
-      <h2><Link href="blog/collaborate">Collaborater</Link></h2>
+      <h2><Link href="collaborateFR">Collaborer</Link></h2>
       <p>Il s'agit d'une initiative Open Source et Creative Commons pour construire des villes et des villages résilients, vous pouvez contribuer en assistant à des ateliers ou en travaillant sur le site Web Next.js.</p>
          
             <button className="btn">     
@@ -62,6 +62,7 @@ function HomePage(props) {
 
      <p>Après avoir assisté à tous les ateliers, les participants auraient ou seraient capables de créer une Story Map ArcGIS et ont contribué au projet en ajoutant des données à la carte Web.</p>  
 
+      <h3><Link  href="/events">Thèmes des ateliers</Link></h3>
 
       <h4><Link href="/events/e3">Aller au-delà des objectifs de développement durable</Link></h4>
       <p>Découvrez pourquoi il est nécessaire de mettre la durabilité et le développement sur le même pied et d'aller au-delà des objectifs de développement durable, les ODD. Les ateliers se concentrent sur ces trois ODD, 10-11-13, nous explorerons comment leurs indicateurs se chevauchent et interagissent et pourquoi il est nécessaire de construire des plans d'action climatique en pensant à eux.</p>
@@ -90,9 +91,9 @@ function HomePage(props) {
           </button>
 
      <br></br>
-           <h2><Link href="blog/explore">Explorer</Link>
+           <h2><Link href="exploreFR">Explorer</Link>
       </h2>
-      <p>Cette plate-forme héberge un ensemble de ressources pour des Professionals ArcGIS et de Développement Durable Sustainability afin de vous aider à construire des villes et des villages résilients. Participez aux ateliers de &nbsp;<Link href="/events/e4" >septembre-octobre</Link>&nbsp;pour en savoir plus sur les risques écologiques auxquels votre ville ou ville natale est confrontée et pourquoi il est important d'aller au-delà des ODD pour lutter contre le changement climatique et les inégalités.</p>
+      <p>Cette plate-forme héberge un ensemble de ressources pour des Professionals ArcGIS et de Développement Durable Sustainability afin de vous aider à construire des villes et des villages résilients. Participez aux ateliers de &nbsp;<Link href="/events/e4" >septembre-octobre</Link>&nbsp;pour en savoir plus sur les risques écologiques auxquels votre ville ou ville natale est confrontée et pourquoi il est important de lutter contre le changement climatique et les inégalités.</p>
       
             <button className="btn">     
             <Image 
@@ -156,7 +157,7 @@ function HomePage(props) {
           </button>
       <p>Les ateliers vous guideront sur la façon de configurer et d'obtenir un compte ArcGIS Online et Github, ce qui vous permettra de collaborer en participant à des ateliers. Vous pouvez également contribuer au &nbsp;<Link href="/events/e20">développement du site internet</Link>&nbsp; par exemple en traduisant le modèle d'éco-ville dans une langue autre que le français ou l'anglais.</p>
 
-      <h3><Link  href="/events">Thèmes des ateliers</Link></h3>
+      <h4><Link href="/events">Tous les ateliers</Link></h4> 
  
 
    </div>
