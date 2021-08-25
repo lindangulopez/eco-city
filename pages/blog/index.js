@@ -1,16 +1,21 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 
-export default function Glossary() {
+
+export default function Collaborate({ isConnected }) /*  */{
   return (
-    <>
-    <div className="container">
+<>
+
+    <div className="container center">
       <Head>
-        <title>Climate Action Glossary</title>
+        <title>Collaborate to Create Eco-Cities & Villages</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-      	<h1>Upcoming Content: </h1>  
+
+	<h1>Upcoming Content: </h1>  
 	<h2>September 2021 - January 2022</h2>
         <h4 className="description">Environmental Consulting & Workshops</h4>
 	<ul>
@@ -32,18 +37,13 @@ export default function Glossary() {
 	<dd>Plans d'Action Climate</dd>
 	</ul>
 
+	
+      
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer>
+
+
+
 
       <style jsx>{`
         .container {
@@ -63,6 +63,7 @@ export default function Glossary() {
           justify-content: center;
           align-items: center;
         }
+
 
         footer {
           width: 100%;
@@ -103,16 +104,31 @@ export default function Glossary() {
           margin: 0;
           line-height: 1.15;
           font-size: 4rem;
-        }
+       }
 
         .title,
         .description {
           text-align: center;
         }
 
+        .subtitle {
+          font-size: 2rem;
+        }
+
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
+          color: orange;
+          text-transform: uppercase;
+          
+        }
+
+        .description2 {
+          line-height: 1.25;
+          font-size: 1rem;
+          color: orange;
+          text-transform: uppercase;
+          
         }
 
         code {
@@ -192,5 +208,8 @@ export default function Glossary() {
       `}</style>
     </div>
     </>
+
+
   )
 }
+

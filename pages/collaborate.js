@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
-export default function Home({ isConnected }) /*  */{
+export default function Collaborate({ isConnected }) /*  */{
   return (
 
     <div className="container">
@@ -60,7 +60,7 @@ export default function Home({ isConnected }) /*  */{
           </a>
 
 
-          <a href="https://arcg.is/1iyPKG" target="_blank"
+          <a href="https://arcg.is/15PSyj0" target="_blank"
             className="card">
             <h4 className="description">November, 2021</h4>
 	    <p>To participate in the Data Science Workshop you will need to complete the following surveys. Take your time to complete the surveys, your responses are cached so you can come back to change or complete the submission when you are ready.</p>
@@ -72,10 +72,10 @@ export default function Home({ isConnected }) /*  */{
               width={100}
               alt="ArcGIS Online Survey 123 Question"
             />
-            <p className="card">Step 1: Question the state of the biomome you live in.</p>
+            <p className="card">Step 1: Question the state of the biome you live in.</p>
           </a>
 
-          <a href="https://arcg.is/0OXD5m" target="_blank"
+          <a href="https://arcg.is/1anL40" target="_blank"
             className="card">
             <h4 className="description">Model &rarr; </h4>
 	    <Image 
@@ -87,7 +87,7 @@ export default function Home({ isConnected }) /*  */{
             <p className="card">Step 2: Describe the current sustainability and development model(s) in place.</p>
           </a>
 
-          <a href="https://arcg.is/0jvGr0" target="_blank"
+          <a href="https://arcg.is/1OrDK1" target="_blank"
             className="card">
             <h4 className="description">Analyse &rarr; </h4>
 	   <Image 
@@ -96,10 +96,10 @@ export default function Home({ isConnected }) /*  */{
               width={40}
               alt="ArcGIS Online Survey 123 Analyse"
             />
-            <p className="card">Step 3: Evaluate your selected cities or village's strategies to build resilience.</p>
+            <p className="card">Step 3: Evaluate your selected cities or villages strategies to build resilience.</p>
           </a>
 
-          <a href="https://arcg.is/1W4W4G1" target="_blank"
+          <a href="https://arcg.is/0T9Di0" target="_blank"
             className="card">
             <h4 className="description">Implement &rarr; </h4>
 	    <Image 
@@ -114,8 +114,8 @@ export default function Home({ isConnected }) /*  */{
           <a href="https://www.esri.com/en-us/lg/training-and-services/learn-arcgis-education-trial" target="_blank"
 	  className="card">
             <h4 className="description">Draft your Story &rarr;</h4>
-            <p>Now that you have set up your Eco-City, you can start to send out you message to your target audiance.</p>
-	    <p className="card">Step 1: Structure the narative</p>
+            <p>Now that you have set up your Eco-City, you can start to send out you message to your target audience.</p>
+	    <p className="card">Step 1: Structure the narrative</p>
 	    <p>If you do not have an ArcGIS Online account, you can use the 21 day trial for this workshop.</p>
           </a>
 
@@ -146,7 +146,7 @@ export default function Home({ isConnected }) /*  */{
 
 	  <a href="https://groups.google.com/g/explore-collaborate" target="_blank"
             className="card">
-            <h4 className="description">January 2022 &rarr; </h4>
+            <h4 className="description">January, 2022 &rarr; </h4>
 	    	    <Image 
               src="/images/e19.png"
               height={650}
@@ -162,7 +162,7 @@ export default function Home({ isConnected }) /*  */{
 	    <br></br>
 
             <p className="description">Fork &rarr; </p>
-            <p>Step 2: request to collaborate on the Github project.</p>
+            <p>Step 2: request to join the Vercel Team or collaborate on the Github project.</p>
 
 	    <br></br>
 

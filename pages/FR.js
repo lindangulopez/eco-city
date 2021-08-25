@@ -35,7 +35,7 @@ function HomePage(props) {
       
       <hr />
 
-      <h2><Link href="collaborateFR">Collaborer</Link></h2>
+      <h2><Link href="/collaborateFR">Collaborer</Link></h2>
       <p>Il s'agit d'une initiative Open Source et Creative Commons pour construire des villes et des villages résilients, vous pouvez contribuer en assistant à des ateliers ou en travaillant sur le site Web Next.js.</p>
          
             <button className="btn">     
@@ -91,7 +91,7 @@ function HomePage(props) {
           </button>
 
      <br></br>
-           <h2><Link href="exploreFR">Explorer</Link>
+           <h2><Link href="/exploreFR">Explorer</Link>
       </h2>
       <p>Cette plate-forme héberge un ensemble de ressources pour des Professionals ArcGIS et de Développement Durable Sustainability afin de vous aider à construire des villes et des villages résilients. Participez aux ateliers de &nbsp;<Link href="/events/e4" >septembre-octobre</Link>&nbsp;pour en savoir plus sur les risques écologiques auxquels votre ville ou ville natale est confrontée et pourquoi il est important de lutter contre le changement climatique et les inégalités.</p>
       
@@ -155,7 +155,7 @@ function HomePage(props) {
             <h4>Plafond Vert</h4>
             <p>réduire les inégalités dans les mouvements écologistes.</p>
           </button>
-      <p>Les ateliers vous guideront sur la façon de configurer et d'obtenir un compte ArcGIS Online et Github, ce qui vous permettra de collaborer en participant à des ateliers. Vous pouvez également contribuer au &nbsp;<Link href="/events/e20">développement du site internet</Link>&nbsp; par exemple en traduisant le modèle d'éco-ville dans une langue autre que le français ou l'anglais.</p>
+      <p>Les ateliers vous guideront sur la façon de configurer et d'obtenir un compte ArcGIS Online et Github, ce qui vous permettra de collaborer en participant à des ateliers. Vous pouvez également contribuer au &nbsp;<Link href="/events/e20">développement du site internet</Link></p>
 
       <h4><Link href="/events">Tous les ateliers</Link></h4> 
  

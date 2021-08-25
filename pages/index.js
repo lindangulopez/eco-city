@@ -35,7 +35,7 @@ function HomePage(props) {
       
       <hr />
 
-      <h2><Link href="blog/collaborate">Collaborate</Link></h2>
+      <h2><Link href="/collaborate">Collaborate</Link></h2>
       <p>This is an Open Source and Creative Commons Initiative to Build Resilient Cities & Villages, you can contribute by attending workshops or working on the Next.js website.</p>
          
             <button className="btn">     
@@ -91,7 +91,7 @@ function HomePage(props) {
           </button>
 
      <br></br>
-           <h2><Link href="blog/explore">Explore</Link>
+           <h2><Link href="explore">Explore</Link>
       </h2>
       <p>This platform hosts a set of resources for ArcGIS Sustainability Professionals to help you build resilient cities and towns. Attend the&nbsp;<Link href="/events/e3" >September-October </Link>&nbsp;Workshops to learn more about the ecological risks your city or hometown faces and why it is important to tackle climate change and inequality.</p>
       
@@ -153,7 +153,7 @@ function HomePage(props) {
             <h4>Green Ceiling</h4>
             <p>reduce inequalities in environmental movements.</p>
           </button>
-      <p>The workshops will guide you on how to set up and get an ArcGIS Online and Github account, which will enable you to collaborate by participating in workshops. You can also contribute to the <Link href="/events/e19">development of the website</Link>&nbsp; for example by translating the eco-city model into a language other than French or English. </p>
+      <p>The workshops will guide you on how to set up and get an ArcGIS Online and Github account, which will enable you to collaborate by participating in workshops. You can also contribute to the <Link href="/events/e19">website development</Link></p>
 
       <h4><Link  href="/events">All Workshops</Link></h4>
 
