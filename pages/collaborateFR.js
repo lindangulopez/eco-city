@@ -16,6 +16,15 @@ export default function CollaborateFR({ isConnected }) /*  */{
 
       <div className="container">
         <h1 className="title card">Bienvenue sur<Link href="/" >&nbsp;Explore & Collaborate !!</Link></h1>
+
+                      <Image 
+              src="/images/ECO.png"
+              height={650}
+              width={650}
+              alt=""
+            />
+
+
         <h2 className="title card">Il s'agit d'une initiative open source pour construire des villes et des villages résilients. </h2>
 
       </div>

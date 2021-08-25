@@ -13,9 +13,17 @@ export default function Collaborate({ isConnected }) /*  */{
       </Head>
 
       <main>
-
       <div className="container">
         <h1 className="title card">Welcome to<Link href="/" >&nbsp;Explore & Collaborate !!</Link></h1>
+
+          <Image 
+              src="/images/ECO.png"
+              height={650}
+              width={650}
+              alt=""
+            />
+
+
         <h2 className="title card">This is an Open Source Initiative to Build Resilient Cities & Villages.</h2>
 
       </div>
@@ -26,12 +34,7 @@ export default function Collaborate({ isConnected }) /*  */{
 	 <a href="https://groups.google.com/g/explore-collaborate" target="_blank"
             className="card">
             <h2 className="description">Sign Up &rarr; </h2>
-	    <Image 
-              src="/images/e1.png"
-              height={650}
-              width={400}
-              alt=""
-            />
+
             <p className="card">To up your skills in Sustainability Science.</p>	    
           </a> 
 
