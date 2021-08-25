@@ -56,7 +56,7 @@ export default function Collaborate({ isConnected }) /*  */{
               width={400}
               alt=""
             />
-            <p className="card">Data Science Workshop.</p> 
+            <p className="card">Sustainable Development Workshop.</p> 
           </a>
 
 

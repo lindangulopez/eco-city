@@ -27,7 +27,7 @@ export default function CollaborateFR({ isConnected }) /*  */{
             className="card">
             <h2 className="description">INSCRIVEZ-VOUS &rarr; </h2>
 	    <Image 
-              src="/images/e1.png"
+              src="/images/e2.png"
               height={650}
               width={400}
               alt=""
@@ -39,7 +39,7 @@ export default function CollaborateFR({ isConnected }) /*  */{
             className="card">
             <h4 className="description">Septembre 2021  &rarr; </h4>
 	    <Image 
-              src="/images/e3.png"
+              src="/images/e4.png"
               height={650}
               width={400}
               alt=""
@@ -51,12 +51,12 @@ export default function CollaborateFR({ isConnected }) /*  */{
             className="card">
             <h4 className="description">Octobre, 2021 &rarr; </h4>
 	    	    <Image 
-              src="/images/e7.png"
+              src="/images/e8.png"
               height={650}
               width={400}
               alt=""
             />
-            <p className="card">Atelier de science des données.</p> 
+            <p className="card">Atelier de dévelopment durable.</p> 
           </a>
 
 
@@ -124,7 +124,7 @@ export default function CollaborateFR({ isConnected }) /*  */{
             className="card">
             <h4 className="description">Novembre, 2021 &rarr; </h4>
 	    	    <Image 
-              src="/images/e11.png"
+              src="/images/e12.png"
               height={650}
               width={400}
               alt=""
@@ -136,7 +136,7 @@ export default function CollaborateFR({ isConnected }) /*  */{
             className="card">
             <h4 className="description">Décembre, 2021 &rarr; </h4>
 	    	    <Image 
-              src="/images/e15.png"
+              src="/images/e16.png"
               height={650}
               width={400}
               alt=""
@@ -175,7 +175,7 @@ export default function CollaborateFR({ isConnected }) /*  */{
             <p className="description">REPLICATE &rarr; </p>
             <p>Étape 4 : traduisez le modèle éco-ville dans une langue autre que le français ou l'anglais.</p>
 
-	    <h2 className="card">Host an Eco-Web Workshop.</h2>
+	    <h2 className="card">Organisez un atelier Eco-Web.</h2>
           </a>
 
         </div>
