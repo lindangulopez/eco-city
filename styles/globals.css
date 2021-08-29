@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+/* 		:root {
+  --text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  --colorWhite:white;
+  --colorParagraph: rgb(5, 55, 55);  
+  --background-color: #e4dcb7;  
+  --box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  --background-image: linear-gradient(to bottom left,  #008b79, #e4dcb7);
+  --border: 3px #008b79;
+  --background-image:
+  radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%),
+  radial-gradient(closest-side, transparent 0%, transparent 75%, #008b79 76%, #008b79 85%, #e4dcb7 86%, #e4dcb7 94%, #FFFFFF 95%, #FFFFFF 103%, #D9E6A7 104%, #D9E6A7 112%, #008b79 113%, #008b79 121%, #FFFFFF 122%, #FFFFFF 130%, #E0EAD7 131%, #E0EAD7 140%);
+
+} */
+
 body {
   margin: 0;
   font-family: 'Open Sans', 'Lato', sans-serif;

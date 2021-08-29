@@ -63,7 +63,7 @@ export default function Collaborate({ isConnected }) /*  */{
           </a>
 
 
-          <a href="https://arcg.is/15PSyj0" target="_blank"
+          <a href="https://arcg.is/15a9nO0" target="_blank"
             className="card">
             <h4 className="description">November, 2021</h4>
 	    <p>To participate in the Data Science Workshop you will need to complete the following surveys. Take your time to complete the surveys, your responses are cached so you can come back to change or complete the submission when you are ready.</p>
