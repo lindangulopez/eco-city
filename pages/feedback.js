@@ -52,13 +52,13 @@ function FeedbackPage() {
         <div>
           <label htmlFor='email'>Your Email Address</label>
           <br></br>
-          <input type='email' id='email' name="email" maxlength="25" ref={emailInputRef} />
+          <input type='email' id='email' name="email" maxlength="55" ref={emailInputRef} />
         </div>
         
         <div>
           <label htmlFor='feedback' >Your Feedback</label>
           <br></br>
-          <textarea id='feedback' rows='5' name="feedback" maxLength="150" ref={feedbackInputRef}></textarea>
+          <textarea id='feedback' rows='5' name="feedback" maxLength="450" ref={feedbackInputRef}></textarea>
         </div>
         <br></br>
         <button className ="btn">Send Feedback</button>

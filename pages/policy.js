@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
 
 export default function OpenSource() {
   return (
@@ -11,7 +12,7 @@ export default function OpenSource() {
       <main>
 
 	<h1 className="title">Legal Notice</h1>
-  <p>Last updated 2021-08-25</p>
+  <p>Last updated 2021-09-16</p>
   
 
   <h3 className="title">Web Site Information</h3>
@@ -78,7 +79,15 @@ export default function OpenSource() {
 </ul>
 
 
-	<h4>Next.js Single Page Application</h4>
+	<h4 className="title">Next.js Single Page Application</h4>
+  <p>Designing this site with a single-page architecture and taking into account user needs allowed us to: </p>
+  <ul>
+  <li>(i) improve the natural referencing of the site.</li>
+  <li>(ii) reduce the total energy used to store and access information on the web,</li>
+  <li>(iii) thus reducing the environmental impacts of the site and its net CO2 equivalent emissions.
+  </li>
+  </ul>
+
   <p>Next.js Analytics is enabled for this website, a real experience score computed by visits.</p>
   <h5>Here is an example of a page build</h5>
   <ul>
@@ -156,6 +165,61 @@ export default function OpenSource() {
 
 
        </main>
+
+       <div className="container center">
+       <h2 className="title">More About Us: </h2>
+<h4><Link href="/">Please note that this is a single page application:</Link></h4>
+
+<p>When designing this site we took into account user needs, which allowed us to: </p>
+
+<ul>
+<li>(i) improve the natural referencing of the site.</li>
+<li>(ii) reduce the total energy used to store and access information on the web,</li>
+<li>(iii) thus reducing the environmental impacts of the site and its net CO2 equivalent emissions.
+</li>
+</ul>
+
+<h3 className="title"><Link href="/">Please use the given links to navigate.</Link></h3>
+
+  <h2 className="description"><Link href="/">We offer Environmental Consulting & Workshops</Link></h2>
+	<p>This is an Open Source and Creative Commons Initiative to help Cities & Villages, draft <strong>Climate Action Plans.</strong> </p>
+	<p>You can contribute by attending workshops or working on the Next.js website.</p>
+
+
+       <p>Here's the archived content and our upcoming events.</p>
+
+	<h2 className="title">New Outputs & Resources</h2>
+	<p>August - September, 2021</p>
+	<ul>
+<dt className="description">Data Model:  <a href="https://codepen.io/lindangulopez/pen/WNOeryg" target="_blank"
+            className="title">A Good Life for All within Planetary Boundaries:</a></dt>  
+<dd>Play with the interactive tool:</dd>
+<dt><a href="https://codepen.io/lindangulopez/pen/WNOeryg" target="_blank">--on codepen--</a></dt>
+<dt className="description">Story Map:  <a href="https://arcg.is/fzHSi" target="_blank"
+            className="title">Climate Change Action Plan | State of Florida</a></dt>
+
+	<dd>Read the interactive Story Map:</dd>
+	<dt><a href="https://arcg.is/fzHSi" target="_blank">--on your browser--</a></dt>
+	<dt className="description">Sustainability & Development</dt>
+	<dt className="description">Story Map:  <a href="https://arcg.is/15myej" target="_blank"
+            className="title">City Dwellers with an Urban Commons</a></dt>
+	<dd>Read the interactive Story Map:</dd>
+	<dt><a href="https://arcg.is/15myej" target="_blank">--on your browser--</a></dt>
+	</ul>
+
+	<h3 className="title"><Link href="/events">Upcoming Workshops:</Link> </h3>  
+	<p className="description">October 2021 - January 2022</p>
+	<ul>
+	<dd>Beyond the SDGs</dd>
+	<dd>Au-delà des ODDs</dd>
+	<dd>Data Science</dd>
+	<dd>Science des données</dd>
+	<dd>Story Map</dd>
+	<dd>Carte de l'histoire</dd>
+	<dd>Eco Web Development</dd>
+	<dd>Développement Web Éco</dd>
+        </ul>
+       </div>
 
 
       <style jsx>{`

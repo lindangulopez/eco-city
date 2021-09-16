@@ -1,14 +1,14 @@
 {
   "events" : {
     "e1" : {
-      "PB" : "The 10 planetary limits used are (i) climate change, (ii) acidification, (iii) chemical pollution, (iv) nitrogen and phosphorus load, (v) freshwater withdrawals, ( vi) land conversion, (vii) loss of biodiversity through genetic diversity, (viii) loss of biodiversity through disturbance, (ix) air pollution and ozone depletion and (x) new entities such as infectious diseases. ",
-      "SF" : "Social Foundations have been filtered to these 10 indicators, (i) Food & Security, (ii) Health & Education, (iii) Income, Work & AI, (iv) Peace & Justice, (v) Political Voice & Networks, (vi) Social & Gender Equity, (vii) Climate Migration, (viii) Capital in the 21st Century, (ix) Energy Poverty and (x) Water Security.",
+      "PB" : "Workshops have been set up to strengthen your skills in sustainable development, data science, storytelling with StoryMaps and web eco-development. Please join SCGIS to get a free ArcGIS Online account and access all layers used in the web map, the project can be found at: https://github.com/users/lindangulopez/projects/10. The website will be released to the public in W56 of 2021 and launched as an Open Source and Creative Commons project. It is currently powered by Vercel, as part of the team: city-sustainable-development",
+      "SF" : "The objective of this project is to set up a methodology and an open source geo-database (Web Mapping a good life for all witin planetray boundaries) to be used by towns and villages so that they can write their plans. climate action around the SDGs - 10-11-13 objectives. You can contribute by attending workshops or working on the Next.js website. The main source of data is the Social Progress Index and the IPCC's Climate Risk Layers which will be extracted, modeled and uploaded to the geographic database hosted by the Society for Conservation and GIS, SCGIS to be rendered on Web maps used to create Story Maps.",
       "date" : "2021-08-18",
-      "description" : "Workshops have been set up to up your skills in, Sustainability-and-Development, Data Science, Storytelling-with-StoryMaps, and Eco-Web-Development.",
+      "description" : "This project is aimed at sustainable development professionals who have reached the green ceiling.",
       "image" : "images/SH.png",
       "isFeatured" : true,
       "location" : "ZOOM, 07:00 PM, Paris, FR",
-      "references" : "This workshop builds on the article, Planetary Boundaries: Exploring the Safe Operating Space for Humanity by including risk analysis of AI and Infectious Diseases. ",
+      "references" : "Workshop build on the article, Planetary Boundaries: Exploring the Safe Operating Space for Humanity by including risk analysis of AI and Infectious Diseases. ",
       "title" : "Invitation to Collaborate"
     },
     "e10" : {
@@ -122,10 +122,10 @@
       "title" : "Eco Web Development"
     },
     "e2" : {
-      "PB" : "Les 10 limites planétaires utilisées sont (i) le changement climatique, (ii) l'acidification, (iii) la pollution chimique, (iv) la charge d'azote et de phosphore, (v) les prélèvements d'eau douce, (vi) la conversion des terres, (vii) la perte de la biodiversité par la diversité génétique, (viii) la perte de biodiversité par les perturbations, (ix) la pollution de l'air et l'appauvrissement de la couche d'ozone et (x) de nouvelles entités telles que les maladies infectieuses.",
-      "SF" : "Les fondations sociales ont été filtrées selon ces 10 indicateurs, (i) Alimentation et sécurité, (ii) Santé et éducation, (iii) Revenu, travail et l'IA, (iv) Paix et justice, (v) Voix et réseaux politiques, (vi ) Équité sociale et de genre, (vii) Migration climatique, (viii) Capital au 21e siècle, (ix) Pauvreté énergétique et (x) Sécurité de l'eau.",
+      "PB" : "Des ateliers ont été mis en place pour renforcer vos compétences en développement durable, data science, storytelling avec StoryMaps et éco-développement web. Veuillez rejoindre SCGIS pour obtenir un compte ArcGIS Online gratuit et accéder à toutes les couches utilisées dans la carte Web, le projet est disponible à l'adresse : https://github.com/users/lindangulopez/projects/10. Le site Web sera rendu public dans W56 de 2021 et lancé en tant que projet Open Source et Creative Commons. Il est actuellement propulsé par Vercel, dans le cadre du team : city-sustainable-development ",
+      "SF" : "L'objectif de ce projet est de mettre en place une méthodologie et une géo-base de données open source (Web Mapping a good life for all witin planetray boundaries) à l'usage des villes et villages afin qu'ils puissent rédiger leurs plans. action climatique autour des ODD - objectifs 10-11-13. Vous pouvez contribuer en assistant à des ateliers ou en travaillant sur le site Web Next.js. La principale source de données est l'indice de progrès social et les couches de risque climatique du GIEC qui seront extraites, modélisées et téléchargées dans la base de données géographique hébergée par la Society for Conservation and GIS, SCGIS pour être rendues sur des cartes Web utilisées pour créer des Story Maps.",
       "date" : "2021-08-19",
-      "description" : "Des ateliers ont été mis en place pour renforcer vos compétences en matière de développement durable et de développement, de science des données, de narration avec StoryMaps et d'éco-développement Web.",
+      "description" : "Ce projet s'adresse aux professionnels du développement durable ayant atteint le plafond vert.",
       "image" : "images/SH.png",
       "isFeatured" : false,
       "location" : "ZOOM, 07:00 PM, Paris, FR",
@@ -156,7 +156,7 @@
     },
     "e22" : {
       "PB" : "Les 10 limites planétaires utilisées sont (i) le changement climatique, (ii) l'acidification, (iii) la pollution chimique, (iv) la charge d'azote et de phosphore, (v) les prélèvements d'eau douce, (vi) la conversion des terres, (vii) la perte de la biodiversité par la diversité génétique, (viii) la perte de biodiversité par les perturbations, (ix) la pollution de l'air et l'appauvrissement de la couche d'ozone et (x) de nouvelles entités telles que les maladies infectieuses.",
-      "SF" : "Les fondations sociales ont été filtrées selon ces 10 indicateurs, (i) Alimentation et sécurité, (ii) Santé et éducation, (iii) Revenu, travail et l'IA, (iv) Paix et justice, (v) Voix et réseaux politiques, (vi ) Équité sociale et de genre, (vii) Migration climatique, (viii) Capital au 21e siècle, (ix) Pauvreté énergétique et (x) Sécurité de l'eau.",
+      "SF" : "\"\"Les fondations sociales ont été filtrées selon ces 10 indicateurs, (i) Alimentation et sécurité, (ii) Santé et éducation, (iii) Revenu, travail et l'IA, (iv) Paix et justice, (v) Voix et réseaux politiques, (vi ) Équité sociale et de genre, (vii) Migration climatique, (viii) Capital au 21e siècle, (ix) Pauvreté énergétique et (x) Sécurité de l'eau.\"\"",
       "date" : "2022-01-16",
       "description" : "Des ateliers ont été mis en place pour renforcer vos compétences en matière de développement durable et de développement, de science des données, de narration avec StoryMaps et d'éco-développement Web.",
       "image" : "images/NJS.png",
@@ -166,47 +166,47 @@
       "title" : "Développement Web Éco"
     },
     "e3" : {
-      "PB" : "The 10 planetary limits used are (i) climate change, (ii) acidification, (iii) chemical pollution, (iv) nitrogen and phosphorus load, (v) freshwater withdrawals, ( vi) land conversion, (vii) loss of biodiversity through genetic diversity, (viii) loss of biodiversity through disturbance, (ix) air pollution and ozone depletion and (x) new entities such as infectious diseases. ",
-      "SF" : "Social Foundations have been filtered to these 10 indicators, (i) Food & Security, (ii) Health & Education, (iii) Income, Work & AI, (iv) Peace & Justice, (v) Political Voice & Networks, (vi) Social & Gender Equity, (vii) Climate Migration, (viii) Capital in the 21st Century, (ix) Energy Poverty and (x) Water Security.",
+      "PB" : "This workshop is useful for town and regional planners and decision makers who need to understand the liability risk a town or villages may experience as a result of an inapt disaster recovery plan. You will learn how to weigh the levels of hazards differently for different communities and ecotypes. The workshop focus is the why, what and how of putting in place an action plan for the risk prone citizens and eco systems. ",
+      "SF" : "In the first technical workshop, we will do a desk study on Florida's Climate Action Plan.  We will try to understand how institutions influence sustainability and development by synthesing  and integrating different online articles and Web maps so that we can evaluate whether there was(is) climate justice. You will learn how to collect, analyse and visulise data and use critical thinking with geo-spatial analytics and mapping.",
       "date" : "2021-09-15",
-      "description" : "Workshops have been set up to up your skills in, Sustainability-and-Development, Data Science, Storytelling-with-StoryMaps, and Eco-Web-Development.",
+      "description" : "Answer the question: {-- Does the Climate Action Model roll out a path towards a good life for all within planetary boundaries ?  -- } ",
       "image" : "images/SAW.jpg",
       "isFeatured" : true,
       "location" : "ZOOM, 10:00 AM, Paris, FR",
-      "references" : "This workshop builds on the article, Planetary Boundaries: Exploring the Safe Operating Space for Humanity by including risk analysis of AI and Infectious Diseases. ",
+      "references" : "The workshop builds from the article: https://www.ecologyandsociety.org/vol14/iss2/art32/",
       "title" : "Sustainability & Development"
     },
     "e4" : {
-      "PB" : "Les 10 limites planétaires utilisées sont (i) le changement climatique, (ii) l'acidification, (iii) la pollution chimique, (iv) la charge d'azote et de phosphore, (v) les prélèvements d'eau douce, (vi) la conversion des terres, (vii) la perte de la biodiversité par la diversité génétique, (viii) la perte de biodiversité par les perturbations, (ix) la pollution de l'air et l'appauvrissement de la couche d'ozone et (x) de nouvelles entités telles que les maladies infectieuses.",
-      "SF" : "Les fondations sociales ont été filtrées selon ces 10 indicateurs, (i) Alimentation et sécurité, (ii) Santé et éducation, (iii) Revenu, travail et l'IA, (iv) Paix et justice, (v) Voix et réseaux politiques, (vi ) Équité sociale et de genre, (vii) Migration climatique, (viii) Capital au 21e siècle, (ix) Pauvreté énergétique et (x) Sécurité de l'eau.",
+      "PB" : "Cet atelier est utile pour les urbanistes et les décideurs régionaux qui ont besoin de comprendre le risque de responsabilité qu'une ville ou des villages peuvent rencontrer à la suite d'un plan de reprise après sinistre inadapté. Vous apprendrez à évaluer différemment les niveaux de risques pour différentes communautés et écotypes. L'atelier se concentre sur le pourquoi, le quoi et le comment de la mise en place d'un plan d'action pour les citoyens et les écosystèmes sujets aux risques. ",
+      "SF" : "Dans le premier atelier technique, nous ferons une étude documentaire sur le Plan d'action climatique de la Floride. Nous essaierons de comprendre comment les institutions influencent la durabilité et le développement en synthétisant et en intégrant différents articles en ligne et cartes Web afin que nous puissions évaluer s'il y avait (est ) justice climatique. Vous apprendrez à collecter, analyser et visualiser des données et à utiliser la pensée critique avec l'analyse et la cartographie géospatiales. ",
       "date" : "2021-09-15",
-      "description" : "Des ateliers ont été mis en place pour renforcer vos compétences en matière de développement durable et de développement, de science des données, de narration avec StoryMaps et d'éco-développement Web.",
+      "description" : " Répondez à la question : {-- Le modèle d'action pour le climat trace-t-il la voie vers une bonne vie pour tous dans les limites de la planète ? -- } ",
       "image" : "images/SAW.jpg",
       "isFeatured" : false,
       "location" : "ZOOM, 07:00 PM, Paris, FR",
-      "references" : "Cet atelier s'appuie sur l'article Planetary Boundaries : Exploring the Safe Operating Space for Humanity en incluant une analyse des risques de l'IA et des maladies infectieuses.",
+      "references" : "L'atelier se construit à partir de l'article : https://www.ecologyandsociety.org/vol14/iss2/art32/",
       "title" : "Développement durable et développement"
     },
     "e5" : {
-      "PB" : "The 10 planetary limits used are (i) climate change, (ii) acidification, (iii) chemical pollution, (iv) nitrogen and phosphorus load, (v) freshwater withdrawals, ( vi) land conversion, (vii) loss of biodiversity through genetic diversity, (viii) loss of biodiversity through disturbance, (ix) air pollution and ozone depletion and (x) new entities such as infectious diseases. ",
-      "SF" : "Social Foundations have been filtered to these 10 indicators, (i) Food & Security, (ii) Health & Education, (iii) Income, Work & AI, (iv) Peace & Justice, (v) Political Voice & Networks, (vi) Social & Gender Equity, (vii) Climate Migration, (viii) Capital in the 21st Century, (ix) Energy Poverty and (x) Water Security.",
+      "PB" : "This workshop is useful for town and regional planners and decision makers who need to understand the liability risk a town or villages may experience as a result of an inapt disaster recovery plan. You will learn how to weigh the levels of hazards differently for different communities and ecotypes. The workshop focus is the why, what and how of putting in place an action plan for the risk prone citizens and eco systems. ",
+      "SF" : "In the first technical workshop, we will do a desk study on Florida's Climate Action Plan.  We will try to understand how institutions influence sustainability and development by synthesing  and integrating different online articles and Web maps so that we can evaluate whether there was(is) climate justice. You will learn how to collect, analyse and visulise data and use critical thinking with geo-spatial analytics and mapping.",
       "date" : "2021-09-19",
-      "description" : "Workshops have been set up to up your skills in, Sustainability-and-Development, Data Science, Storytelling-with-StoryMaps, and Eco-Web-Development.",
+      "description" : "Answer the question: {-- Does the Climate Action Model roll out a path towards a good life for all within planetary boundaries ?  -- } ",
       "image" : "images/SAW.jpg",
       "isFeatured" : false,
       "location" : "ZOOM, 10:00 AM, Paris, FR",
-      "references" : "This workshop builds on the article, Planetary Boundaries: Exploring the Safe Operating Space for Humanity by including risk analysis of AI and Infectious Diseases. ",
+      "references" : "The workshop builds from the article: https://www.ecologyandsociety.org/vol14/iss2/art32/",
       "title" : "Sustainability & Development"
     },
     "e6" : {
-      "PB" : "Les 10 limites planétaires utilisées sont (i) le changement climatique, (ii) l'acidification, (iii) la pollution chimique, (iv) la charge d'azote et de phosphore, (v) les prélèvements d'eau douce, (vi) la conversion des terres, (vii) la perte de la biodiversité par la diversité génétique, (viii) la perte de biodiversité par les perturbations, (ix) la pollution de l'air et l'appauvrissement de la couche d'ozone et (x) de nouvelles entités telles que les maladies infectieuses.",
-      "SF" : "Les fondations sociales ont été filtrées selon ces 10 indicateurs, (i) Alimentation et sécurité, (ii) Santé et éducation, (iii) Revenu, travail et l'IA, (iv) Paix et justice, (v) Voix et réseaux politiques, (vi ) Équité sociale et de genre, (vii) Migration climatique, (viii) Capital au 21e siècle, (ix) Pauvreté énergétique et (x) Sécurité de l'eau.",
+      "PB" : "Cet atelier est utile pour les urbanistes et les décideurs régionaux qui ont besoin de comprendre le risque de responsabilité qu'une ville ou des villages peuvent rencontrer à la suite d'un plan de reprise après sinistre inadapté. Vous apprendrez à évaluer différemment les niveaux de risques pour différentes communautés et écotypes. L'atelier se concentre sur le pourquoi, le quoi et le comment de la mise en place d'un plan d'action pour les citoyens et les écosystèmes sujets aux risques. ",
+      "SF" : "Dans le premier atelier technique, nous ferons une étude documentaire sur le Plan d'action climatique de la Floride. Nous essaierons de comprendre comment les institutions influencent la durabilité et le développement en synthétisant et en intégrant différents articles en ligne et cartes Web afin que nous puissions évaluer s'il y avait (est ) justice climatique. Vous apprendrez à collecter, analyser et visualiser des données et à utiliser la pensée critique avec l'analyse et la cartographie géospatiales. ",
       "date" : "2021-09-19",
-      "description" : "Des ateliers ont été mis en place pour renforcer vos compétences en matière de développement durable et de développement, de science des données, de narration avec StoryMaps et d'éco-développement Web.",
+      "description" : " Répondez à la question : {-- Le modèle d'action pour le climat trace-t-il la voie vers une bonne vie pour tous dans les limites de la planète ? -- } ",
       "image" : "images/SAW.jpg",
       "isFeatured" : false,
       "location" : "ZOOM, 07:00 PM, Paris, FR",
-      "references" : "Cet atelier s'appuie sur l'article Planetary Boundaries : Exploring the Safe Operating Space for Humanity en incluant une analyse des risques de l'IA et des maladies infectieuses.",
+      "references" : "L'atelier se construit à partir de l'article : https://www.ecologyandsociety.org/vol14/iss2/art32/",
       "title" : "Développement durable et développement"
     },
     "e7" : {
