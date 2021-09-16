@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
   useEffect(() => {
     setIsLoading(true);
 
-    fetch('https://eco-city-d215d-default-rtdb.europe-west1.firebasedatabase.app/sales.json')
+    fetch('https://sept2021-afac1-default-rtdb.europe-west1.firebasedatabase.app/sales.json')
       .then((response) => response.json())
       .then((data) => {
         const transformedSales = [];
