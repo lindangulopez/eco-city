@@ -37,7 +37,7 @@ export default function OpenSource() {
   <dt>Github Project</dt>
 	<dd>https://github.com/users/lindangulopez/projects/10</dd>
   <dd>The Explore and Collaborate project uses Github to publish and share information about the project, in the form of public Gists and Repositories, and with cards on the projects dashboard.</dd>
-  <dd>Once the project is complete, the website will be made public on Github and shared as a template, in W56 of 2021.</dd>
+  <dd>Once the project is complete, the website will be made public on Github and shared as a template, in W3 of 2022.</dd>
 	<dt>Google Group</dt>
 	<dd>https://groups.google.com/g/explore-collaborate</dd>
   <dt>Online Web Map</dt>
